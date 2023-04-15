@@ -1,5 +1,6 @@
 package xyz.jeelzzz.aerocore.commands.gamemode
 
+import dev.triumphteam.cmd.bukkit.annotation.Permission
 import dev.triumphteam.cmd.core.BaseCommand
 import dev.triumphteam.cmd.core.annotation.ArgName
 import dev.triumphteam.cmd.core.annotation.Command
@@ -15,6 +16,7 @@ import xyz.jeelzzz.aerocore.util.TextUtil
 import javax.annotation.Nullable
 
 @Command("gamemode")
+@Permission("aerocore.command.gamemode")
 class GamemodeCommand(plugin: AeroCore) : BaseCommand() {
     val plugin: AeroCore
     init {

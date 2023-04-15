@@ -1,5 +1,6 @@
 package xyz.jeelzzz.aerocore.commands.misc
 
+import dev.triumphteam.cmd.bukkit.annotation.Permission
 import dev.triumphteam.cmd.core.BaseCommand
 import dev.triumphteam.cmd.core.annotation.Command
 import dev.triumphteam.cmd.core.annotation.Default
@@ -13,6 +14,7 @@ import xyz.jeelzzz.aerocore.AeroCore
 import java.util.Random
 
 @Command("kittycannon", alias = ["kc"])
+@Permission("aerocore.command.kittycannon")
 class KittyCannonCommand(plugin: AeroCore) : BaseCommand() {
     val plugin: AeroCore
     val random = Random()
