@@ -1,0 +1,15 @@
+prefix = "<#d4e7ff>&lAero<#2a84ff>&lCore &r&8» "
+
+### Features ###
+
+## Gamemode ##
+[features.gamemode]
+    enabled = true
+    [features.gamemode.messages]
+        set_self = "&7Set your gamemode to &f%s"
+        set_other = "&7Set &f%s&7's gamemode to &f%s"
+
+## Kittycannon ##
+[features.kittycannon]
+    enabled = true
+    random_type = true

@@ -1,0 +1,4 @@
+name: AeroCore
+version: '${version}'
+main: xyz.jeelzzz.aerocore.AeroCore
+api-version: 1.19
